@@ -1,0 +1,161 @@
+@media screen and (max-width: 430px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 22px;
+    }
+
+    .header-image img {
+        width: 90%;
+        margin-left: -36px;
+    }
+
+    .navbar i {
+        font-size: 24px;
+        border: 1px solid;
+        padding: 9px;
+        border-radius: 7px;
+        border-color: rgba(0, 0, 0, .1);
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: -21px;
+    }
+
+    .carousel.slide {
+        display: block;
+    }
+
+    .carousel-item {
+        height: 500px;
+        margin-top: 25px;
+
+    }
+
+    .carousel-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hra-programs-img img {
+        margin-top: 45px;
+        margin-left: 20px;
+    }
+
+    .margin-card-body {
+        margin-top: 40px;
+    }
+
+    .card-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        border: 1px solid #eee;
+        padding: 50px;
+        margin-top: 30px;
+    }
+
+    .card-button {
+        width: 39%;
+        border: 0px;
+        padding: 7px;
+        border-radius: 10px;
+        margin-bottom: 27px;
+        margin-top: 21px;
+        background-color: rgb(66, 167, 191);
+        color: white;
+    }
+
+    .card-title {
+        padding: 30px;
+    }
+
+    .img-design img {
+        width: 84%;
+        margin-left: 10%;
+        height: 331px;
+        object-fit: cover;
+        margin-top: 45px;
+    }
+
+    .advantages-card-title {
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .advantages-card-text {
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .graduates-img-design img {
+        width: 24%;
+        margin-left: 10%;
+        height: 131px;
+        object-fit: cover;
+        margin-top: 45px;
+    }
+
+    .opinions-title {
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+
+    .opinions-text {
+        margin-left: 10%;
+    }
+
+    .sign-up-container {
+        margin-top: 73px;
+        margin-left: 26px;
+    }
+
+    .sign-up-title {
+        margin-top: 20px;
+    }
+
+    .sign-up-title {
+        margin-top: 20px;
+    }
+
+    .sign-up-input {
+        margin-top: 20px;
+    }
+
+    .sign-up-container input {
+        margin-top: 20px;
+        border-color: #42a7bf;
+    }
+
+    .sign-up-input input {
+        padding: 5px;
+        margin-right: 4px;
+    }
+
+    .sign-up-btn button{
+        margin-top: 27px;
+        width: 32%;
+        border: 0px;
+        padding: 8px;
+        background-color: rgb(66, 167, 191);
+        color: white;
+        border-radius: 4px;
+    }
+}
